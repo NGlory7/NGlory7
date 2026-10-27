@@ -27,7 +27,7 @@
 ### 🚀 Hakkımda / Ne Üzerine Çalışıyorum?
 
 - 🔍 **Siber Güvenlik & OSINT:** Kişisel ve kurumsal açık kaynak istihbaratı (OSINT), dijital ayak izi analizi ve otomasyon araçları.
-- 🛠️ **Öne Çıkan Projem:** [Personal OSINT Tool](https://github.com/NGlory7/Personal-OSINT-Tool) — Hedef profiller, kullanıcı adları, e-postalar ve açık kaynaklar üzerinden kapsamlı dijital kimlik araştırması ve ayak izi haritalandırması yapan istihbarat aracı.
+- 🛠️ **Öne Çıkan Projem:** [Personal OSINT Tool](https://github.com/NGlory7/PersonalOsintTool) — Hedef profiller, kullanıcı adları, e-postalar ve açık kaynaklar üzerinden kapsamlı dijital kimlik araştırması ve ayak izi haritalandırması yapan istihbarat aracı.
 - 🖼️ **Görüntü İşleme (Computer Vision):** Görseller üzerinde piksel düzeyinde analiz, veri çıkarma, filtreleme ve görsel işleme boru hatları (`OpenCV`, `NumPy`, `Pillow`).
 - 🕵️‍♂️ **Steganografi & Adli Bilişim (Forensics):** Medya dosyalarında (görsel/ses) LSB ve benzeri tekniklerle veri gizleme, gizli verilerin tespiti (Steganalysis) ve CTF adli bilişim çözümleri.
 
