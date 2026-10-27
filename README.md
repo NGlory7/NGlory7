@@ -12,7 +12,7 @@
     <a href="mailto:gorkemkoyuncu7@outlook.com">
       <img src="https://img.shields.io/badge/Email-gorkemkoyuncu7%40outlook.com-blue?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="Email">
     </a>
-    <a href="https://linkedin.com/in/kullanici-adiniz" target="_blank">
+    <a href="https://www.linkedin.com/in/gorkemkoyuncu/" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
     </a>
     <a href="https://github.com/NGlory7">
