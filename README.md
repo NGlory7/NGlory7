@@ -26,10 +26,9 @@
 
 ### 🚀 Hakkımda / Ne Üzerine Çalışıyorum?
 
-- 🔍 **Siber Güvenlik & OSINT:** Kişisel ve kurumsal açık kaynak istihbaratı (OSINT), dijital ayak izi analizi ve otomasyon araçları.
-- 🛠️ **Öne Çıkan Projem:** [Personal OSINT Tool](https://github.com/NGlory7/PersonalOsintTool) — Hedef profiller, kullanıcı adları, e-postalar ve açık kaynaklar üzerinden kapsamlı dijital kimlik araştırması ve ayak izi haritalandırması yapan istihbarat aracı.
-- 🖼️ **Görüntü İşleme (Computer Vision):** Görseller üzerinde piksel düzeyinde analiz, veri çıkarma, filtreleme ve görsel işleme boru hatları (`OpenCV`, `NumPy`, `Pillow`).
-- 🕵️‍♂️ **Steganografi & Adli Bilişim (Forensics):** Medya dosyalarında (görsel/ses) LSB ve benzeri tekniklerle veri gizleme, gizli verilerin tespiti (Steganalysis) ve CTF adli bilişim çözümleri.
+- 🔍 **Siber Güvenlik & OSINT:** Kişisel ve kurumsal açık kaynak istihbaratı (OSINT), dijital ayak izi analizi ve otomasyon araçları ([Personal OSINT Tool](https://github.com/NGlory7/PersonalOsintTool)).
+- 🕵️‍♂️ **Steganografi & Adli Bilişim (Forensics):** Medya dosyalarında (görsel/ses) LSB ve spektrum analiziyle gizli verileri tespit eden adli bilişim çözümleri ([StegoHunter](https://github.com/NGlory7/StegoHunter)).
+- 🖼️ **Görüntü İşleme (Computer Vision):** Görseller üzerinde piksel düzeyinde analiz, harf/karakter tespiti (MSER), filtreleme ve görsel işleme boru hatları (`OpenCV`, `NumPy`, `Pillow`).
 
 ---
 
@@ -48,7 +47,7 @@
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
   <img src="https://img.shields.io/badge/Pillow_(PIL)-3776AB?style=flat-square&logo=python&logoColor=white" alt="Pillow" />
-  <img src="https://img.shields.io/badge/Steganography-LSB_&_Analysis-8A2BE2?style=flat-square" alt="Steganography" />
+  <img src="https://img.shields.io/badge/Steganography-Audio_&_LSB_Forensics-8A2BE2?style=flat-square" alt="Steganography" />
 </p>
 
 #### 🛡️ Güvenlik, Keşif & Sistem
@@ -66,6 +65,7 @@
 
 | Proje | Açıklama | Teknoloji |
 | :--- | :--- | :--- |
+| 🎧 [**StegoHunter**](https://github.com/NGlory7/StegoHunter) | Ses dosyalarında (WAV/PCM) spektrogram yazılarını (OpenCV MSER), DTMF tuş seslerini, LSB manipülasyonlarını ve gömülü arşivleri (Zip-Bomb korumalı) otomatik tespit eden adli bilişim suite'i. | `Python`, `OpenCV`, `Forensics`, `Steganalysis` |
 | 🕵️‍♂️ [**Personal OSINT Tool**](https://github.com/NGlory7/PersonalOsintTool) | Hedef profiller, kullanıcı adları ve açık kaynaklar üzerinden dijital ayak izi tespiti ve kimlik istihbaratı yapan araştırma aracı. | `Python`, `OSINT`, `Automation` |
 | 🛡️ [**AdvancedReportingTool**](https://github.com/NGlory7/AdvancedReportingTool) | Pasif subdomain keşfi, headless görsel keşif ve stealth port taraması gerçekleştiren raporlama motoru. | `Python`, `Playwright`, `AsyncIO` |
 
@@ -85,5 +85,5 @@
 ---
 
 <p align="center">
-  <i>"Pixels hide secrets, code reveals truth." 👁️‍🗨️🛡️</i>
+  <i>"Pixels hide secrets, frequencies sing clues, code reveals truth." 👁️🗨️🎧🛡️</i>
 </p>
