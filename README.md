@@ -1,10 +1,10 @@
 <div align="center">
 
   # Selam, ben Görkem! 👋
-  ### 🛡️ Cybersecurity & Forensics Enthusiast | Python Developer | Computer Vision
+  ### 🛡️ Cybersecurity & Forensics Enthusiast | Computer Vision & OSINT Developer
 
   <p align="center">
-    Siber güvenlik otomasyonları, OSINT, <b>görüntü işleme (Computer Vision)</b> ve <b>steganografi (veri gizleme & adli bilişim)</b> üzerine çalışıyorum.
+    Siber güvenlik otomasyonları, askeri & açık kaynak istihbaratı (<b>OSINT / IMINT</b>), <b>görüntü işleme (Computer Vision)</b> ve <b>steganografi (adli bilişim)</b> üzerine çalışıyorum.
   </p>
 
   <!-- Sosyal Rozetler / İletişim -->
@@ -26,17 +26,19 @@
 
 ### 🚀 Hakkımda / Ne Üzerine Çalışıyorum?
 
-- 🔍 **Siber Güvenlik & OSINT:** Kişisel ve kurumsal açık kaynak istihbaratı (OSINT), dijital ayak izi analizi ve otomasyon araçları ([Personal OSINT Tool](https://github.com/NGlory7/PersonalOsintTool)).
-- 🕵️‍♂️ **Steganografi & Adli Bilişim (Forensics):** Medya dosyalarında (görsel/ses) LSB ve spektrum analiziyle gizli verileri tespit eden adli bilişim çözümleri ([StegoHunter](https://github.com/NGlory7/StegoHunter)).
-- 🖼️ **Görüntü İşleme (Computer Vision):** Görseller üzerinde piksel düzeyinde analiz, harf/karakter tespiti (MSER), filtreleme ve görsel işleme boru hatları (`OpenCV`, `NumPy`, `Pillow`).
+- 🛡️ **Askeri IMINT & OPSEC:** Hava sızdırmaz (%100 Air-Gapped) ortamlarda askeri doku, kamuflaj ve teçhizat tespitiyle operatör/bölge tahmini yapan gizlilik odaklı görüntü istihbaratı çözümleri ([AegisIMINT](https://github.com/NGlory7/Privacy-Preserving-OPSEC-Compliant-Military-IMINT-Analyzer)).
+- 🕵️‍♂️ **Steganografi & Adli Bilişim (Forensics):** Medya dosyalarında (görsel/ses) LSB ve spektrum analiziyle gizli verileri tespit eden adli bilişim suite'leri ([StegoHunter](https://github.com/NGlory7/StegoHunter)).
+- 🔍 **Siber Güvenlik & OSINT:** Hedef profiller ve açık kaynaklar üzerinden dijital ayak izi tespiti, pasif keşif ve otomasyon araçları ([Personal OSINT Tool](https://github.com/NGlory7/PersonalOsintTool)).
+- 🖼️ **Görüntü İşleme (Computer Vision):** Piksel düzeyinde renk/doku analizi, karakter tespiti (MSER), nesne segmentasyonu ve taktik HUD boru hatları (`OpenCV`, `NumPy`, `Pillow`).
 
 ---
 
 ### 🧰 Teknolojiler & Yetenekler
 
-#### 💻 Diller & Betik
+#### 💻 Diller & Arayüz
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit" />
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" alt="Bash" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
@@ -52,6 +54,7 @@
 
 #### 🛡️ Güvenlik, Keşif & Sistem
 <p align="left">
+  <img src="https://img.shields.io/badge/IMINT-Imagery_Intelligence-darkred?style=flat-square" alt="IMINT" />
   <img src="https://img.shields.io/badge/OSINT-Open_Source_Intelligence-red?style=flat-square" alt="OSINT" />
   <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
@@ -65,9 +68,10 @@
 
 | Proje | Açıklama | Teknoloji |
 | :--- | :--- | :--- |
+| 🛡️ [**AegisIMINT**](https://github.com/NGlory7/Privacy-Preserving-OPSEC-Compliant-Military-IMINT-Analyzer) | Askeri görüntülerden kamuflaj, silah ve teçhizat tespiti yaparak %100 yerel (Air-Gapped) operatör ülke ve çatışma bölgesi korelasyonu üreten OPSEC uyumlu IMINT analiz motoru. | `Python`, `Computer Vision`, `IMINT`, `OPSEC`, `Streamlit` |
 | 🎧 [**StegoHunter**](https://github.com/NGlory7/StegoHunter) | Ses dosyalarında (WAV/PCM) spektrogram yazılarını (OpenCV MSER), DTMF tuş seslerini, LSB manipülasyonlarını ve gömülü arşivleri (Zip-Bomb korumalı) otomatik tespit eden adli bilişim suite'i. | `Python`, `OpenCV`, `Forensics`, `Steganalysis` |
 | 🕵️‍♂️ [**Personal OSINT Tool**](https://github.com/NGlory7/PersonalOsintTool) | Hedef profiller, kullanıcı adları ve açık kaynaklar üzerinden dijital ayak izi tespiti ve kimlik istihbaratı yapan araştırma aracı. | `Python`, `OSINT`, `Automation` |
-| 🛡️ [**AdvancedReportingTool**](https://github.com/NGlory7/AdvancedReportingTool) | Pasif subdomain keşfi, headless görsel keşif ve stealth port taraması gerçekleştiren raporlama motoru. | `Python`, `Playwright`, `AsyncIO` |
+| 🌐 [**AdvancedReportingTool**](https://github.com/NGlory7/AdvancedReportingTool) | Pasif subdomain keşfi, headless görsel keşif ve stealth port taraması gerçekleştiren raporlama motoru. | `Python`, `Playwright`, `AsyncIO` |
 
 ---
 
