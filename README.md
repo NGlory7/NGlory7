@@ -82,9 +82,7 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NGlory7&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
 </div>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=NGlory7&theme=tokyonight&hide_border=true" width="97%" />
-</div>
+
 
 ---
 
