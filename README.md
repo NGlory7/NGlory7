@@ -1,6 +1,6 @@
 <div align="center">
 
-  # Selam, ben Görkem! 👋
+  # Görkem Koyuncu
   ### 🛡️ Cybersecurity & Forensics Enthusiast | Computer Vision & OSINT Developer
 
   <p align="center">
