@@ -26,11 +26,12 @@
 
 ### 🚀 Hakkımda / Ne Üzerine Çalışıyorum?
 
-- 🛡️ **Askeri IMINT & OPSEC:** Hava sızdırmaz (%100 Air-Gapped) ortamlarda askeri doku, kamuflaj ve teçhizat tespitiyle operatör/bölge tahmini yapan gizlilik odaklı görüntü istihbaratı çözümleri ([AegisIMINT](https://github.com/NGlory7/Privacy-Preserving-OPSEC-Compliant-Military-IMINT-Analyzer)).
-- 🛰️ **Gerçek Zamanlı Geo-OSINT & Telemetri:** Stratejik üsler, telekomünikasyon altyapıları, saat aralıklı canlı askeri uçuş (ADS-B) ve deniz (AIS) trafiği ile saatlik baz trafik anomalilerini çok dilli gündemle ilişkilendiren izleme sistemleri ([S49A18 // STRAT-TRAFFIC](https://github.com/NGlory7/S49A18)).
-- 🕵️‍♂️ **Steganografi & Adli Bilişim (Forensics):** Medya dosyalarında (görsel/ses) LSB ve spektrum analiziyle gizli verileri tespit eden adli bilişim suite'leri ([StegoHunter](https://github.com/NGlory7/StegoHunter)).
-- 🔍 **Siber Güvenlik & OSINT:** Hedef profiller ve açık kaynaklar üzerinden dijital ayak izi tespiti, pasif keşif ve otomasyon araçları ([Personal OSINT Tool](https://github.com/NGlory7/PersonalOsintTool)).
-- 🖼️ **Görüntü İşleme (Computer Vision):** Piksel düzeyinde renk/doku analizi, karakter tespiti (MSER), nesne segmentasyonu ve taktik HUD boru hatları (`OpenCV`, `NumPy`, `Pillow`).
+- 🛰️ **Gerçek zamanlı durum farkındalığı (OSINT):** Çok dilli haber akışı, hava (ADS-B) ve deniz (AIS) trafiği, siren uyarıları ve şehir trafiğini tek ekranda birleştirip SQLite'ta biriken baz çizgilerine göre anomali tespit eden izleme sistemleri ([Konjonktür](https://github.com/NGlory7/konjonktur)).
+- 🛡️ **Görüntü istihbaratı (IMINT) & gizlilik:** Yerel çalışan açık modellerle (OWLv2, CLIP) askeri teçhizat ve kamuflaj tanıma; ağ bağlantısını gerçekten engelleyen çevrimdışı mimari ve ölçülmüş doğruluk ([AegisIMINT](https://github.com/NGlory7/Privacy-Preserving-OPSEC-Compliant-Military-IMINT-Analyzer)).
+- 🌍 **Uydu verisiyle coğrafi analiz (GEOINT):** NASA/ESA uydu verisiyle Dünya'nın tüm karalarını tarayıp Ay ve Mars görevleri için analog test alanları bulan keşif motoru ([GeoCosmos](https://github.com/NGlory7/GeoCosmos), NASA Space Apps 2026).
+- 🕵️‍♂️ **Steganografi & adli bilişim:** Ses dosyalarında spektrogram, LSB ve gömülü dosya analiziyle gizli veriyi bulan araçlar ([StegoHunter](https://github.com/NGlory7/StegoHunter)).
+- 🔍 **Siber güvenlik otomasyonu:** Açık kaynaklardan dijital ayak izi çıkarma ve pasif keşif araçları ([Personal OSINT Tool](https://github.com/NGlory7/PersonalOsintTool)).
+- 📏 **Çalışma prensibim:** Simülasyon yerine gerçek veri; iddia yerine ölçüm. Projelerimde her kaynağın sağlığı ekranda görünür, doğruluk rakamları README'de yazar.
 
 ---
 
@@ -47,8 +48,10 @@
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
 </p>
 
-#### 👁️ Görüntü İşleme & Steganografi
+#### 👁️ Görüntü İşleme, Makine Öğrenmesi & Steganografi
 <p align="left">
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/Hugging_Face-Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" />
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
   <img src="https://img.shields.io/badge/Pillow_(PIL)-3776AB?style=flat-square&logo=python&logoColor=white" alt="Pillow" />
@@ -60,6 +63,10 @@
   <img src="https://img.shields.io/badge/IMINT-Imagery_Intelligence-darkred?style=flat-square" alt="IMINT" />
   <img src="https://img.shields.io/badge/GEOINT-Geospatial_OSINT-0284c7?style=flat-square" alt="GEOINT" />
   <img src="https://img.shields.io/badge/OSINT-Open_Source_Intelligence-red?style=flat-square" alt="OSINT" />
+  <img src="https://img.shields.io/badge/ADS--B_&_AIS-Live_Telemetry-0f766e?style=flat-square" alt="ADS-B & AIS" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
+  <img src="https://img.shields.io/badge/Leaflet-199900?style=flat-square&logo=leaflet&logoColor=white" alt="Leaflet" />
+  <img src="https://img.shields.io/badge/Google_Earth_Engine-4285F4?style=flat-square&logo=google-earth&logoColor=white" alt="Earth Engine" />
   <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
   <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kali-linux&logoColor=white" alt="Kali" />
@@ -72,8 +79,9 @@
 
 | Proje | Açıklama | Teknoloji |
 | :--- | :--- | :--- |
-| 🛡️ [**AegisIMINT**](https://github.com/NGlory7/Privacy-Preserving-OPSEC-Compliant-Military-IMINT-Analyzer) | Askeri görüntülerden kamuflaj, silah ve teçhizat tespiti yaparak %100 yerel (Air-Gapped) operatör ülke ve çatışma bölgesi korelasyonu üreten OPSEC uyumlu IMINT analiz motoru. | `Python`, `Computer Vision`, `IMINT`, `OPSEC`, `Streamlit` |
-| 🛰️ [**S49A18 (STRAT-TRAFFIC)**](https://github.com/NGlory7/S49A18) | *اِنَّ اللّٰهَ يَعْلَمُ غَيْبَ السَّمٰوَاتِ وَالْاَرْضِۜ وَاللّٰهُ بَص۪يرٌ بِمَا تَعْمَلُونَ* — Stratejik üsler, telekom altyapıları, saat aralıklı canlı askeri uçuş (ADS-B) & deniz (AIS) trafiği, saatlik baz (Z-Score) yol kapatma anomalileri ve otomatik çevirili çok dilli gündem korelasyonu sunan gerçek zamanlı Geo-OSINT platformu. | `Node.js`, `Geo-OSINT`, `ADS-B & AIS`, `Leaflet`, `Real-Time Telemetry` |
+| 🛰️ [**Konjonktür**](https://github.com/NGlory7/konjonktur) | Yan ekranda sürekli açık duran canlı dünya ve Orta Doğu durum ekranı: 5 dilde haber (otomatik Türkçe çeviri) ve haber yoğunluk haritası, İsrail siren uyarıları, ADS-B hava trafiği ve kalkış/varış rotaları, AIS gemi trafiği, Körfez şehir trafiği, piyasalar ve canlı TV. İsrail, İran ve Körfez ülkelerinin uçak ve gemileri dünyanın her yerinde izlenir; trafik, hava sahası ve deniz anomalileri SQLite'taki baz çizgisine göre (robust Z-skoru) tespit edilir. Sıfır bağımlılık, simülasyon yok. | `Node.js`, `SQLite`, `Leaflet`, `ADS-B & AIS`, `SSE` |
+| 🛡️ [**AegisIMINT**](https://github.com/NGlory7/Privacy-Preserving-OPSEC-Compliant-Military-IMINT-Analyzer) | Görüntüdeki askeri teçhizat ve kamuflajı yerel modellerle (OWLv2 tespit, CLIP tanıma) bulan; önce EXIF/GPS'i ve yüzleri temizleyen, çalışırken dış ağ bağlantılarını engelleyen analiz aracı. 150 görsellik açık lisanslı sette ölçüldü: silah/araç varlığı %94–96, tüfek modeli %52 (şans %11), araç %78 (şans %17), kamuflaj deseni %46 (şans %7). | `Python`, `PyTorch`, `Transformers`, `OpenCV`, `Streamlit` |
+| 🌍 [**GeoCosmos**](https://github.com/NGlory7/GeoCosmos) | NASA Space Apps 2026: Ay veya Mars'taki bir hedef ve test amacı için Dünya'nın ~250.000 kara hücresini NASA/ESA uydu verisiyle tarayıp en uygun analog test alanlarını sıralayan, benzerliğin nerede koptuğunu da gösteren keşif motoru. [Canlı demo](https://nglory7.github.io/GeoCosmos/) | `Python`, `Earth Engine`, `TypeScript`, `GitHub Actions` |
 | 🎧 [**StegoHunter**](https://github.com/NGlory7/StegoHunter) | Ses dosyalarında (WAV/PCM) spektrogram yazılarını (OpenCV MSER), DTMF tuş seslerini, LSB manipülasyonlarını ve gömülü arşivleri (Zip-Bomb korumalı) otomatik tespit eden adli bilişim suite'i. | `Python`, `OpenCV`, `Forensics`, `Steganalysis` |
 | 🕵️‍♂️ [**Personal OSINT Tool**](https://github.com/NGlory7/PersonalOsintTool) | Hedef profiller, kullanıcı adları ve açık kaynaklar üzerinden dijital ayak izi tespiti ve kimlik istihbaratı yapan araştırma aracı. | `Python`, `OSINT`, `Automation` |
 
